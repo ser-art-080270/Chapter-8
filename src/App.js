@@ -1,13 +1,10 @@
 import './App.css';
+import GitHubUser from './GitHubUser';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a>
-          Learn React
-        </a>
-      </header>
+      <GitHubUser login='ser-art-080270' />
     </div>
   );
 }
