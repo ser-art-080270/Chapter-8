@@ -1,9 +1,10 @@
 import './App.css';
+import TahoePeaks from './TahoePeaks/TahoePeaksView';
 
 function App() {
   return (
     <div className="App">
-      <label>Test</label>
+      <TahoePeaks/>
     </div>
   );
 }
